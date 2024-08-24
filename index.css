@@ -1,0 +1,51 @@
+.container{
+    height:900px;
+    border: 3px solid black;
+    margin:50px;
+    display:flex;
+
+}
+.box{
+    width:100px;
+    height:100px;
+
+}
+/* relative to its normal position and leaves a gap */
+.box1{
+    background-color:lightblue;
+    position: relative;
+    top:100px;
+     left:200px; 
+    
+
+
+}
+/* it top and left is according to page edges */
+.box2{
+    background-color: brown;
+    position: relative;
+    /* top:100px; */
+    left:50px;
+    top:100px;
+    z-index:4 ;
+
+}
+.box3{
+    background-color: lightcoral;
+    position:fixed;
+    top:20px;
+    left:130px;
+    z-index:6;
+}
+.box4{
+    background-color: darkcyan;
+    position:sticky;
+    top:90px;
+    z-index:7 ;
+}
+.box5{
+    background-color: cornflowerblue;
+}
+.box6{
+    background-color: plum;
+}
